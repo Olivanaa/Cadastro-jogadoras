@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Futebol Feminino Manager</title>
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
+    <header>
+        <h1>Futebol Feminino Manager</h1>
+    </header>
+    <main>
+        <section class="formulario">
+            <h2>Cadastrar Jogadora</h2>
+            <form id="playerForm">
+                <div class="nome">
+                    <label for="playerName">Nome</label>
+                    <input type="text" id="playerName" required>
+                </div>
+                <div class="posicao">
+                    <label for="playerPosition">Posição</label>
+                    <input type="text" id="playerPosition" required>
+                </div>
+                <div class="clube">
+                    <label for="playerClub">Clube</label>
+                    <input type="text" id="playerClub" required>
+                </div>
+                <div class="foto">
+                    <label for="playerPhoto">Foto (URL)</label>
+                    <input type="url" id="playerPhoto" required>
+                </div>
+                <div class="gols">
+                    <label for="playerGoals">Gols</label>
+                    <input type="number" id="playerGoals" min="0" required>
+                </div>
+                <div class="assistencia">
+                    <label for="playerAssists">Assistências</label>
+                    <input type="number" id="playerAssists" min="0" required>
+                </div>
+                <div class="jogos">
+                    <label for="playerMatches">Jogos</label>
+                    <input type="number" id="playerMatches" min="0" required>
+                </div>
+                <div class="botao">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+        <section class="lista">
+            <div id="playerList" class="player-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>Futebol Feminino Manager ⚽</p>
+    </footer>
+
     
+    <script src="./src/js/app.js"></script>
+    <script src="https://kit.fontawesome.com/129b440489.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
