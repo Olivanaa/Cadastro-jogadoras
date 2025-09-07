@@ -52,7 +52,7 @@ Futebol Feminino Manager é uma aplicação web para gerenciar jogadoras de fute
 ## 🌍 GitHub Pages
 
 O projeto pode ser acessado online em:  
-👉 [Futebol Feminino Manager - GitHub Pages](https://olivanaa.github.io/)  
+👉 [Futebol Feminino Manager - GitHub Pages]([https://olivanaa.github.io/](https://olivanaa.github.io/Cadastro-jogadoras/))  
 
 ## 👩‍💻 Autor
 
