@@ -210,6 +210,22 @@ function apagar(indice) {
     }
 }
 
+function favoritar(indice) {
+    console.log(indice);
+
+
+    const jogadora = jogadoras[indice]
+    jogadora.favorita = !jogadora.favorita
+    salvarLocalStorage()
+
+
+    console.log(jogadora.favorita);
+
+
+    mostarJogadoras()
+
+}
+
 function salvarLocalStorage() {
     localStorage.setItem("jogadoras", JSON.stringify(jogadoras))
 }
